@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.review{
+    width: 35%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 1px 5px 50px 15px #ebeaea;
+    padding: 50px 60px;
+    padding-top: 25px;
+}
+
+img{
+    width: 23%;
+    border-radius: 50%;
+    border-right: 5px solid #25bdaf;
+    margin: 10px 0;
+    position: relative;
+}
+img:after {content: '”';font-size: 32px;font-family:Georgia, "Times New Roman", Times, serif;color: #66E5DF;font-weight:bold;vertical-align:top;line-height:0.8;right: -20px;top: 107px;position: absolute;}
+
+.title h4 {
+    color: #222;
+    text-transform: uppercase;
+    font-size: 40px;
+    margin: 30px 0;
+    position: relative;
+}
+
+.title h4:before {
+    position: absolute;
+    content: "";
+    width: 50%;
+    height: 3px;
+    background: #25bdaf;
+    left: 50%;
+    bottom: -7px;
+    transform: translateX(-50%);
+}
+
+h5#author {
+    font-size: 20px;
+    margin: 5px 0;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+p#job {
+    margin: 5px 0;
+    color: #25bdaf;
+}
+
+p#info {
+    color: #686868;
+}
+
+.btn-container {
+    margin-top: 30px;
+}
+
+button i {
+    color: #25bdaf;
+    font-size: 20px;
+    margin: 0 10px;
+    padding: 5px;
+}
+
+button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
